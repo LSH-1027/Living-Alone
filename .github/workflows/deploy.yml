@@ -5,13 +5,13 @@
 #   (기본값인 "Deploy from a branch" 로 두면 이 워크플로의 배포 단계가 실패한다)
 #
 # 배포되는 주소
-#   대시보드      https://lsthc.github.io/Living-Alone/
-#   학부모 안내   https://lsthc.github.io/Living-Alone/welcome.html
+#   대시보드      https://lsh-1027.github.io/Living-Alone/
+#   학부모 안내   https://lsh-1027.github.io/Living-Alone/welcome.html
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   # Actions 탭에서 손으로도 돌릴 수 있게 (발표 직전 재배포용)
   workflow_dispatch:
 
