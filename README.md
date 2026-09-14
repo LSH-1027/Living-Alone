@@ -117,7 +117,7 @@ npm run welcome:build   # public/welcome.html + 글꼴 서브셋 생성
 화면 Chapter 6 에 있습니다.
 
 Chapter 5 의 제도 정보는 각 기관 공식 사이트에서 직접 확인했고, 확인일과 URL 을
-[`src/data/programs.ts`](src/data/programs.ts) 에 함께 적어 뒀습니다. **제도는 바뀝니다. 발표 전에 다시 확인하세요.**
+[`src/data/programs.ts`](src/data/programs.ts) 에 함께 적어 뒀습니다.
 
 ## 만든 것
 
