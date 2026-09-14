@@ -29,7 +29,7 @@ function ChapterStage() {
   const shift = reduced ? 0 : 48;
 
   return (
-    <AnimatePresence initial={false}>
+    <AnimatePresence>
       <motion.main
         key={chapter.id}
         className="deck-panel"
